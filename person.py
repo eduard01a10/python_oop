@@ -1,4 +1,7 @@
 class Person:
+    name = str
+    age = int
+    gender = str
 
     def __init__(self, name, age, gender):
         self.name = name
